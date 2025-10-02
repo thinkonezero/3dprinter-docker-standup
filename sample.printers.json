@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Printer 1",
+        "id": "01PXXXXXXXXXXXX",
+        "code": "AccessCode",
+        "ip": "192.168.1.X"
+    },
+    {
+        "name": "Printer 2",
+        "id": "01PXXXXXXXXXXXX",
+        "code": "AccessCode",
+        "ip": "192.168.1.X"
+    },
+    {
+        "name": "Printer 3",
+        "id": "01PXXXXXXXXXXXX",
+        "code": "AccessCode",
+        "ip": "192.168.1.X"
+    }
+]
