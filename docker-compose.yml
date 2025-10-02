@@ -70,7 +70,7 @@ services:
       - UPDATE_INTERVAL=${UPDATE_INTERVAL}
       - MODE=${BAMBUAMS_MODE}
     volumes:
-      - '${SYNOLOGY_BASE_DOCKER_PATH}/amsfilament/printers:/app/printers'
-      - '${SYNOLOGY_BASE_DOCKER_PATH}/amsfilament/logs:/app/logs'
+      - '${BASE_DOCKER_PATH}/amsfilament/printers:/app/printers'
+      - '${BASE_DOCKER_PATH}/amsfilament/logs:/app/logs'
       - '/etc/localtime:/etc/localtime:ro'
     
