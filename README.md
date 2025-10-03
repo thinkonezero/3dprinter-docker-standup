@@ -75,8 +75,6 @@ If this project has helped you in anyway, and you'd like to say thanks...
 
 [![Donate](https://img.shields.io/badge/Donate-SquareCash-brightgreen.svg)](https://cash.me/$phikai)
 
-_AFFILIATE DISCLOSURE: You can also support this project by purchasing a VPN Subscription via one of the links in this README._
-
 ---
 
 # Disclaimer
