@@ -20,7 +20,7 @@ This is a docker-compose configuration to run 3D printer management tools on a S
 
 1. **Clone the project**:
    ```bash
-   git clone https://github.com/phikai/3dprinter-docker-standup.git
+   git clone https://gitlab.com/thinkonezero/3dprinter-docker-standup.git
    ```
 2. **Environment Configuration**:
    - Copy `sample.env` to `.env` and update the variables.
@@ -29,7 +29,7 @@ This is a docker-compose configuration to run 3D printer management tools on a S
    - Update `printers.json` with your printer's Serial Number and Access Code.
 4. **Deploy**:
    ```bash
-   docker compose up -d
+   docker-compose up -d
    ```
 
 ### 🔍 Finding Your Printer Details
