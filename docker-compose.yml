@@ -41,6 +41,12 @@ services:
     volumes:
       - '${BASE_DOCKER_PATH}/spoolman:/home/app/.local/share/spoolman'
       - '/etc/localtime:/etc/localtime:ro'
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
 
   # ----------------------------------------
   # BAMBU AMS FILAMENT STATUS
@@ -73,4 +79,10 @@ services:
       - '${BASE_DOCKER_PATH}/amsfilament/printers:/app/printers'
       - '${BASE_DOCKER_PATH}/amsfilament/logs:/app/logs'
       - '/etc/localtime:/etc/localtime:ro'
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
     
